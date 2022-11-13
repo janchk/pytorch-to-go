@@ -10,6 +10,7 @@ This config based on [Devcontainer](https://code.visualstudio.com/docs/devcontai
 1. Install [Visual Studio Code](https://code.visualstudio.com) on your host system
 2. Open this repository with your vscode editor
 3. Install docker on your host system
+    * (On Windows) Enable wsl2 support for your docker installation [Guide](https://docs.docker.com/desktop/windows/wsl/#enabling-docker-support-in-wsl-2-distros)
 4. Install nvidia-docker
     * (On Linux) [Guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#docker)
     * (On Windows) [Guide](https://docs.nvidia.com/cuda/wsl-user-guide/index.html)
