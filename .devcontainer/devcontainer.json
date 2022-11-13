@@ -11,6 +11,7 @@
             ]
         }
     },
+    "runArgs": ["--gpus=all"],
     "forwardPorts": [
         8080,
         80,
