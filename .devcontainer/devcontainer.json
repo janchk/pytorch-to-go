@@ -1,0 +1,20 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "SBSnippets.pytorch-snippets",
+                "ms-toolsai.jupyter",
+                "GitHub.vscode-pull-request-github"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8080,
+        80,
+        6006,
+        6007
+    ]
+}
