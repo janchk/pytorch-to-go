@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.13.0-cuda11.6-cudnn8-devel
+FROM pytorch/pytorch:2.2.0-cuda12.1-cudnn8-devel
 
 SHELL ["/bin/bash", "-c"]
 
